@@ -1,5 +1,5 @@
-
-class Student1 
+// Create Model.
+class Student
 {
     private String rollNo;
     private String name;
@@ -24,6 +24,7 @@ class Student1
         this.name = name;
     }
 }
+// Create View.
   
 class StudentView 
 {
@@ -34,6 +35,7 @@ class StudentView
         System.out.println("Roll No: " + studentRollNo);
     }
 }
+// Create Controller
   
 class StudentController 
 {
@@ -71,6 +73,7 @@ class StudentController
         view.printStudentDetails(model.getName(), model.getRollNo());
     }    
 }
+// StudentController methods to demonstrate MVC design pattern usage
   
 class MVCPattern 
 {
